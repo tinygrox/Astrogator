@@ -745,7 +745,7 @@ namespace Astrogator {
 				monospaceWidth	= 4,
 			}, new ColumnDefinition() {
 				header	= "",
-				width	= 30,
+				width	= 36, //30,
 				headerColSpan	= 0,
 				headerStyle	= rightHdrStyle,
 				contentStyle	= numberStyle,
@@ -753,7 +753,7 @@ namespace Astrogator {
 				monospaceWidth	= 4,
 			}, new ColumnDefinition() {
 				header	= "",
-				width	= 20,
+				width	= 32, // 20,
 				headerColSpan	= 0,
 				headerStyle	= rightHdrStyle,
 				contentStyle	= numberStyle,
@@ -923,7 +923,7 @@ namespace Astrogator {
 		{
 			return new DialogGUILabel(message, width, height) {
 				guiStyle = style,
-				textLabelOptions = useEllipsis
+				//textLabelOptions = useEllipsis
 			};
 		}
 
@@ -941,7 +941,7 @@ namespace Astrogator {
 		{
 			return new DialogGUILabel(getString, width, height) {
 				guiStyle = style,
-				textLabelOptions = useEllipsis
+				//textLabelOptions = useEllipsis
 			};
 		}
 
